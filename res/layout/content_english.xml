@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="n.headsup.EnglishActivity"
+    tools:showIn="@layout/activity_english"
+    android:layout_margin="0dp"
+    android:background="#17343f">
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/showsBtn"-->
+        <!--android:textColor="#8932589a"-->
+        <!--android:background="#7d64e2a9"-->
+        <!--android:textSize="25sp"-->
+        <!--android:layout_below="@+id/moviesBtn"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginTop="17dp"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:text="Shows" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/songsBtn"-->
+        <!--android:textColor="#8932589a"-->
+        <!--android:background="#7d64e2a9"-->
+        <!--android:textSize="25sp"-->
+        <!--android:layout_marginTop="19dp"-->
+        <!--android:layout_below="@+id/showsBtn"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:text="Songs" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/actBtn"-->
+        <!--android:textColor="#8932589a"-->
+        <!--android:background="#7d64e2a9"-->
+        <!--android:textSize="25sp"-->
+        <!--android:layout_below="@+id/celebsBtn"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginTop="23dp"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:text="act" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/moviesBtn"-->
+        <!--android:textColor="#8932589a"-->
+        <!--android:background="#7d64e2a9"-->
+        <!--android:textSize="25sp"-->
+        <!--android:layout_marginTop="25dp"-->
+        <!--android:layout_below="@+id/randomBtn"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:text="Movies" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/randomBtn"-->
+        <!--android:textColor="#8932589a"-->
+        <!--android:background="#7d64e2a9"-->
+        <!--android:textSize="25sp"-->
+        <!--android:layout_marginTop="52dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:text="random" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/celebsBtn"-->
+        <!--android:textColor="#8932589a"-->
+        <!--android:background="#7d64e2a9"-->
+        <!--android:textSize="25sp"-->
+        <!--android:layout_below="@+id/songsBtn"-->
+        <!--android:layout_alignRight="@+id/songsBtn"-->
+        <!--android:layout_alignEnd="@+id/songsBtn"-->
+        <!--android:layout_marginTop="19dp"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:text="celebrities" />-->
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/menu2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:columnWidth="600dp"
+        android:numColumns="2"
+        android:verticalSpacing="0dp"
+        android:horizontalSpacing="0dp"
+        android:stretchMode="columnWidth"
+        android:gravity="fill"
+
+        />
+</RelativeLayout>

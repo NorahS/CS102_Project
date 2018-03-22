@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="n.headsup.ArabicActivity"
+    tools:showIn="@layout/activity_arabic"
+    android:background="#6499ac">
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/moviesBtn"-->
+        <!--android:textColor="#8932589a"-->
+        <!--android:background="#7d64e2a9"-->
+        <!--android:textSize="25dp"-->
+        <!--android:layout_below="@+id/randomBtn"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginTop="17dp"-->
+        <!--android:layout_alignRight="@+id/randomBtn"-->
+        <!--android:layout_alignEnd="@+id/randomBtn"-->
+        <!--android:text="أفلام" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/showsBtn"-->
+        <!--android:textColor="#8932589a"-->
+        <!--android:background="#7d64e2a9"-->
+        <!--android:textSize="25dp"-->
+        <!--android:layout_above="@+id/songsBtn"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_marginBottom="28dp"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:text="مسلسلات" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/songsBtn"-->
+        <!--android:textColor="#8932589a"-->
+        <!--android:background="#7d64e2a9"-->
+        <!--android:textSize="25dp"-->
+        <!--android:layout_marginBottom="24dp"-->
+        <!--android:layout_above="@+id/celebsBtn"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:text="أغاني" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/celebsBtn"-->
+        <!--android:textColor="#8932589a"-->
+        <!--android:background="#7d64e2a9"-->
+        <!--android:textSize="25dp"-->
+        <!--android:layout_above="@+id/phrasesBtn"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_marginBottom="24dp"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:text="مشاهير" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/phrasesBtn"-->
+        <!--android:textColor="#8932589a"-->
+        <!--android:background="#7d64e2a9"-->
+        <!--android:textSize="25dp"-->
+        <!--android:layout_marginBottom="18dp"-->
+        <!--android:layout_above="@+id/playsBtn"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:text="أمثال" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/playsBtn"-->
+        <!--android:textColor="#8932589a"-->
+        <!--android:background="#7d64e2a9"-->
+        <!--android:textSize="25dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_marginBottom="69dp"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:text="مسرحيات" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/randomBtn"-->
+        <!--android:textColor="#8932589a"-->
+        <!--android:background="#7d64e2a9"-->
+        <!--android:textSize="25dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:text="عشوائـي" />-->
+
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/menu3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:columnWidth="600dp"
+        android:numColumns="2"
+        android:verticalSpacing="0dp"
+        android:horizontalSpacing="0dp"
+        android:stretchMode="columnWidth"
+        android:gravity="fill"
+
+        />
+</RelativeLayout>

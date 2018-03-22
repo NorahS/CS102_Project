@@ -1,0 +1,94 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e60c1d24"
+
+    tools:context="n.headsup.ResultActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:background="#e60c1d24">
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+
+
+        </LinearLayout>
+
+
+
+        <VideoView
+            android:layout_width="338dp"
+            android:layout_height="181dp"
+            android:id="@+id/RecVid"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_below="@+id/fullscreen_content_controls"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Score  "
+            android:id="@+id/score"
+            android:textColor="#d88b7d"
+            android:textSize="19pt"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="18dp"
+            android:layout_below="@+id/RecVid" />
+
+        <GridView
+            android:layout_width="348dp"
+            android:layout_height="400dp"
+            android:numColumns="2"
+            android:id="@+id/gridViewres"
+            android:layout_gravity="right|bottom"
+            android:layout_alignRight="@+id/RecVid"
+            android:layout_alignEnd="@+id/RecVid"
+            android:layout_below="@+id/score" />
+
+        <!--<Button-->
+            <!--android:layout_width="60dp"-->
+            <!--android:layout_height="60dp"-->
+            <!--android:background="@drawable/exiticon"-->
+            <!--android:id="@+id/exitBtn"-->
+            <!--android:layout_marginBottom="20dp"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_toRightOf="@+id/score"-->
+            <!--android:layout_toEndOf="@+id/score" />-->
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/replayBtn"
+            android:background="@drawable/replayicon"
+            android:layout_gravity="center_horizontal|bottom"
+
+
+          android:layout_below="@+id/RecVid"
+            android:layout_alignLeft="@+id/gridViewres"
+            android:layout_alignStart="@+id/gridViewres" />
+    </RelativeLayout>
+
+</FrameLayout>

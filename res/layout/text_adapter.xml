@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/result"
+        android:fontFamily="@string/abc_activity_chooser_view_see_all"
+        android:textSize="9pt"
+        android:layout_weight="0.10"
+        android:textStyle="bold" />
+
+</LinearLayout>

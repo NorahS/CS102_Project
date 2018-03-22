@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="A   R   A   B   I   C"
+        android:id="@+id/arabicBtn"
+        android:textColor="#d88b7d"
+        android:background="#e60c1d24"
+        android:textSize="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_weight="1"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="E   n   g   l   i   s   h"
+        android:id="@+id/englishBtn"
+        android:textColor="#548b96"
+        android:background="#e60c1d24"
+        android:textSize="27dp"
+        android:layout_below="@+id/arabicBtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_weight="1"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="B   o   t   h"
+        android:id="@+id/bothBtn"
+        android:textColor="#efd96f"
+        android:textSize="25dp"
+        android:layout_below="@+id/englishBtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_weight="1"
+        android:background="#e60c1d24"
+        android:textStyle="bold" />
+</LinearLayout>
